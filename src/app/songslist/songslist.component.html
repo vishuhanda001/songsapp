@@ -19,6 +19,7 @@
                 <p>{{songinfo.track_title}}</p>
                 <i class="material-icons" (click)="play(songinfo)" >play_arrow</i>
                 <!-- <i class="material-icons">pause</i> -->
+               <a [href]="'https://freemusicarchive.org/file/'+songinfo.track_file" download><i class="material-icons">file_download</i></a>
             </div>
         </div>
         

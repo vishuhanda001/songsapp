@@ -92,6 +92,10 @@ export class SongslistComponent implements OnInit {
     this.eleref.nativeElement.getElementsByClassName("song")[0].pause();
   }
 
+  downloadSong(songinfo){
+    
+  }
+
   search(){
 
   }

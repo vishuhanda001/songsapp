@@ -121,16 +121,32 @@ padding-top: 100px;
     left: 35%;
     top: 24%;
 }
-.songs .cards .songtitle i{
+.songs .cards .songtitle i:first-of-type{
     position: absolute;
     background-color: white;
     display: inline;
     left: 83%;
-    top: 21%;
-    font-size: 40px;
+    top: 60%;
+    font-size: 22px;
     color: gray
 }
+.songs .cards .songtitle a{
+    position: absolute;
+    right: 7%;
+    display: inline;
+    top: 63%;
+}
 
+
+.songs .cards .songtitle i:last-of-type{
+    background-color: transparent;
+    position: absolute;
+    display: inline;
+    right: 3%;
+    top: 63%;
+    color: gray;
+    font-size: 22px;
+}
 
 
 
